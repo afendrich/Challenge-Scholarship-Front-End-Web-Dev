@@ -1,1 +1,10 @@
 .idea/
+
+git status
+
+git commit -m " //comment goes here "
+
+git remote -v
+
+git push original
+  (will need to enter username / pw)
