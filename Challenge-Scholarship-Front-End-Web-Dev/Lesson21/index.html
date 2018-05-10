@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="borderALL">
+    <div>
+        <h1 class="title">Lab: Pixel Art
+            <input type="button" id="playSnakeButton" value="Play Snake" class="playSnakeButton">
+        </h1>
+        <h1 class="snakeTitle">SNAKE
+            <input type="button" class="pixelArtButton"  id="pixelArtButton" value="Pixel Art" style="display: none;>
+        </h1>
+
+    </div>
+
+    <div class="gridSizeContainer">
+        <h2>Choose Grid Size</h2>
+        <div class="container1">
+            <form id="sizePicker">
+                <div class="gridInputs">
+                    <div class="item1">Grid Height:
+                        <div class="item2">
+                            <input type="number" id="inputHeight" name="height" min="2" max="50" value="10">
+                        </div>
+                        <div class="item3">
+                            <input type="button" class="addHeight" value="+">
+                        </div>
+                        <div class="item4">
+                            <input type="button" class="subtractHeight" value="-">
+                        </div>
+
+                    </div>
+
+
+                    <div class="item5">Grid Width:
+                        <div class="item6">
+                            <input type="number" id="inputWidth" name="width" min="2" max="50" value="10">
+                        </div>
+                        <div class="item7">
+                            <input type="button" class="addWidth" value="+">
+                        </div>
+                        <div class="item8">
+                            <input type="button" class="subtractWidth" value="-">
+                        </div>
+                    </div>
+                    <div class="item9">
+                        <input type="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="colorContainer">
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+    </div>
+
+    <h2 class="designCanvas">Design Canvas</h2>
+    <table class="pixelCanvas" id="pixelCanvas">
+        </table>
+
+
+    <script src="designs.js"></script>
+
+</div>
+
+</body>
+</html>

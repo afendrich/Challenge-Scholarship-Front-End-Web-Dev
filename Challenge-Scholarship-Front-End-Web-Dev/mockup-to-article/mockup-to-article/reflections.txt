@@ -1,0 +1,18 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  
+* What new skills have you learned?
+  
+* What has been easy?
+  
+* What has been difficult?
+  
+* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+
+---1)Checking code using "validator.w3".  Viewing forums I'm seeing lots of people sharing code using "codepen", which seems convenient method to do so.  We've gone over the basics of html which included how to display the following:   paragrphs, make font italicised/bold/strikethrough/superscript/subscript, diff size headings, insert a hyperlink, insert a photo, display paragraphs.   
+
+2)Trial and error!   Looking something up and testing it out has been easy, and fun!    
+
+3)Getting caught up on one small detail like an equals sign when inserting an image, and not finding out why the code isn't working until taking a break and coming back to the problem.   I also find difficult the amount of threads going on with slack.   Its very hard to stay on top of, and it also seems like you can easily get lost in the amount of information there.  At the same time, there is a lot to sort through if you get lost and most likely someone will have run into the same problem.  Double edged sword i guess.
+
+4)  When getting stumped on a problem, I've searched through slack & the forums to see if anyone else ran into the same situation.   I've also sorted through other sites to find code needed (like inserting a picture).

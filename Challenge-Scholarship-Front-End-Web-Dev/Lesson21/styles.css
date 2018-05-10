@@ -1,0 +1,89 @@
+.testRed {
+    background-color: #ff0817;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 2px 2px #888888;
+}
+tr {
+    height: 2em;
+}
+td {
+    width: 2em;
+}
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+input[type=number] {
+    width: 4em
+}
+.borderALL {
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 4px 4px #888888;
+    margin: 10px 10px 10px 10px;
+    width: 90%;
+    background-color: #bcfffd;
+}
+.gridSizeContainer {
+    background-color: #1E88E5;
+    border: solid;
+    padding: 1em;
+
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9 {
+    display: flex;
+    padding-right: 10px;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.colorContainer {
+    background-color: #4FC3F7;
+    border: solid;
+    padding: 1em;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.snake {
+    width: 2em;
+    position: relative;
+    top: -20px;
+
+
+}
+.pixelArtButton {
+    width: auto;
+    height: 60px;
+}
+.snakeButton {
+    text-align: center;
+    text-decoration: underline;
+    padding: 1em;
+}
+.playSnakeButton {
+    height: 60px;
+}
